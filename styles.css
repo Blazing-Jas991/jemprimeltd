@@ -1,0 +1,46 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  font-family: arial, sans-serif, "New Times Roman";
+}
+
+h1 {
+  text-align: center;
+  color: rgba(2, 2, 39, 0.801);
+  margin-bottom: 20px;
+  margin-top: 0px;
+  border-top: dotted orange 2px;
+  border-bottom: dotted rgba(2, 2, 39, 0.801) 2px;
+  border-width: 0.6rem;
+}
+.links {
+  text-align: center;
+  padding: 0px;
+  width: 700;
+  font-size: 25px;
+}
+.contact {
+  color: rgba(2, 2, 39, 0.801);
+}
+.about {
+  color: rgba(2, 2, 39, 0.801);
+}
+.career {
+  color: rgba(2, 2, 39, 0.801);
+}
+
+.logo {
+  margin-bottom: 0 auto;
+  display: block;
+  text-align: center;
+}
+.button {
+  font-size: 25px;
+  background-color: lightblue;
+  margin-right: 60px;
+}
