@@ -5,33 +5,8 @@
 }
 
 body {
-  background-color: lightblue;
-  font-family: arial, sans-serif, "New Times Roman";
-}
-
-h1 {
-  text-align: center;
-  color: rgba(2, 2, 39, 0.801);
-  margin-bottom: 20px;
-  margin-top: 0px;
-  border-top: dotted orange 2px;
-  border-bottom: dotted rgba(2, 2, 39, 0.801) 2px;
-  border-width: 0.6rem;
-}
-.links {
-  text-align: center;
-  padding: 0px;
-  width: 700;
-  font-size: 25px;
-}
-.contact {
-  color: rgba(2, 2, 39, 0.801);
-}
-.about {
-  color: rgba(2, 2, 39, 0.801);
-}
-.career {
-  color: rgba(2, 2, 39, 0.801);
+  background-color: white;
+  font-family: sans-serif, "new times roman";
 }
 
 .logo {
@@ -39,8 +14,45 @@ h1 {
   display: block;
   text-align: center;
 }
-.button {
-  font-size: 25px;
-  background-color: lightblue;
-  margin-right: 60px;
+
+h1 {
+  font-size: 22px;
+  text-align: center;
+  color: rgba(2, 2, 39, 0.801);
+  margin-bottom: 10px;
+  margin-top: 0px;
+  border-top: dotted rgba(243, 112, 5, 0.904);
+  border-bottom: dotted rgba(2, 2, 39, 0.801);
+  border-width: 0.2em;
 }
+
+button {
+  margin: 0 30px;
+  border-color: rgba(243, 112, 5, 0.904);
+  background-color: rgba(2, 2, 39, 0.801) ;
+  width: 100px;
+  font-weight: bold;
+}
+
+.contact {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.about {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.career {
+  color:white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav {
+  text-align: center;
+}
+
